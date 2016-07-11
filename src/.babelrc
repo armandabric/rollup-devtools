@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "es2015-rollup"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-flow-strip-types"
+    ]
+}

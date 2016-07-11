@@ -1,0 +1,16 @@
+[version]
+0.28.0
+
+[ignore]
+;.*/node_modules/fbjs
+; .*/node_modules/react-side-effect
+; build/*
+.*/tests/.*
+.*/__tests__/.*
+.*/node_modules/.*/test/.*
+.*/node_modules/.*/tests/.*
+
+[options]
+munge_underscores=true
+esproposal.class_instance_fields=enable
+esproposal.class_static_fields=enable

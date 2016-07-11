@@ -1,0 +1,44 @@
+{
+  "name": "rollup-devtools",
+  "version": "0.0.1",
+  "description": "A tool that monitor rollup plugins execution time",
+  "main": "dist/RollupMonitor.js",
+  "js:next": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spy-Seth/rollup-devtools.git"
+  },
+  "keywords": [
+    "rollup",
+    "perf",
+    "performance",
+    "plugin",
+    "plugins",
+    "devtool",
+    "devtools",
+    "dev"
+  ],
+  "author": "Armand Abric <armand@forgebinaire.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spy-Seth/rollup-devtools/issues"
+  },
+  "homepage": "https://github.com/Spy-Seth/rollup-devtools#readme",
+  "dependencies": {
+    "string.prototype.padstart": "~3.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "~6.10.2",
+    "babel-plugin-transform-flow-strip-types": "~6.8.0",
+    "babel-preset-es2015-rollup": "~1.1.1",
+    "rollup": "~0.34.1",
+    "rollup-plugin-babel": "~2.6.1",
+    "rollup-plugin-commonjs": "~3.1.0",
+    "rollup-plugin-node-resolve": "~1.7.1"
+  }
+}

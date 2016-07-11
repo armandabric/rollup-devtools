@@ -6,8 +6,9 @@
   "js:next": "src/index.js",
   "scripts": {
     "build": "rollup -c",
+    "flow": "flow",
     "prepublish": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run flow"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "babel-plugin-transform-class-properties": "~6.10.2",
     "babel-plugin-transform-flow-strip-types": "~6.8.0",
     "babel-preset-es2015-rollup": "~1.1.1",
+    "flow-bin": "~0.28.0",
     "rollup": "~0.34.1",
     "rollup-plugin-babel": "~2.6.1",
     "rollup-plugin-commonjs": "~3.1.0",
